@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Librería Alura</title>
+    <link rel="shortcut icon" href="src/logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a17eedded9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/styles/normalize.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/products.css">
+    <link rel="stylesheet" href="./src/styles/ver-todo.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/login.css">
+</head>
+<body>
+    <header class="header">
+
+        <a class="title" href="./index.html">Librería Alura</a>
+
+        <a id ="login-button" class="header__login-button" href="./login.html">
+            Acceder
+        </a>
+
+        <div id="search" class="search">
+            <input id="search__input" class="search__input" type="text" spellcheck="false" autofocus="on" placeholder="Ingrese busqueda">
+            <a id="search__btn" class="search__btn">
+                <i class="fas fa-search "></i>
+            </a>
+        </div>
+              
+    </header>
+
+    <main>
+
+        <section class="login">
+
+            <h2>Iniciar sesión</h2>
+
+            <form class="login__form">
+                <div id="inputEmail" class="contact__input__container login__email">
+                    <label id="emailLabel" class="contact__label" for="email">E-mail</label>
+                    <input id="email" class="contact__input__email" spellcheck="false" required type="email" placeholder="Escriba su correo electrónico">
+                </div>
+
+                <div id="inputPassword" class="contact__input__container">
+                    <label id="passwordLabel" class="contact__label" for="passwword">Contraseña</label>
+                    <input id="password" class="contact__input__password" required type="password" placeholder="Escriba su contraseña">
+                </div>
+
+                <div class="submit__container login__sumbit">
+                    <input id="submitBtn" href="indexarproducto.html" class="contact__input__submit" type="submit" value="Entrar">
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__preguntas">
+
+            <h2 class="title">Librería Alura</h2>
+       
+            <a href="#" target="#">Quienes somos</a>
+            <a href="#" target="#">Política de privacidad</a>
+            <a href="#" target="#">Programa de fidelidad</a>
+            <a href="#" target="#">Nuestras tiendas</a>
+            <a href="#" target="#">Quiero ser franquiciado</a>
+            <a href="#" target="#">Anúncie aquí</a>
+
+        </section>
+
+        <section class="footer__contact-form">
+
+            <form>
+                <h2>Hable con nosotros</h2>
+                <div id="inputNombre" class="contact__input__container">
+                    <label id="nombreLabel" class="contact__label" for="nombre">Nombre</label>
+                    <input id="nombre" class="contact__input__nombre" spellcheck="false" required type="text">
+                </div>
+
+                <div id="inputMensaje" class="contact__input__container contact__input__container__mensaje">
+                    <label id="mensajeLabel" class="contact__label" for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" class="contact__input__mensaje" cols="28" rows="5" spellcheck="false"
+                        required></textarea>
+                </div>
+
+                <div>
+                    <input class="contact__input__submit" type="submit" value="Enviar mensaje">
+                </div>
+            </form>
+
+        </section>
+
+    </footer>
+
+
+    <section class="footer__autor">
+        <p>Developed by Guillermo Oscar for  <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank">Oracle Next Education</a></p>
+    </section>
+
+    <script src="src/script.js"></script>
+    <script src="src/login.js"></script>
+    
+</body>
+</html>

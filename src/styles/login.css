@@ -1,0 +1,88 @@
+.login{
+    align-items: center;
+    background: #50858b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 97px 0;
+}
+
+
+.login__form{
+    align-items: center;
+    background: #50858b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.login h2{
+    color: #1a1919;
+    font-size: 16px;
+    font-weight: 700; 
+    margin: 0;
+}
+
+#submitBtn.contact__input__submit{
+    background-color: #78cac2;
+    max-height: 50px;
+}
+
+#submitBtn.contact__input__submit:hover{
+    background-color: #6d9934;
+    transition: 0.3s;   
+}
+
+
+.contact__input__email,
+.contact__input__password{
+    width: 360px;
+    min-height: 40px;
+}
+
+.contact__input__container {
+    min-height:80px;
+}
+
+.login__email, .login__sumbit{
+    margin: 16px 0;
+}
+
+.contact__input__email::placeholder,
+.contact__input__password::placeholder{
+    opacity: 0.6;
+}
+
+.contact__input__nombre {
+    min-height: 40px;
+}
+
+.contact__input__submit{
+    align-self: flex-end;
+    color: black;
+    background-color:#50858b;
+    font-weight: 600;
+    max-width: 170px;
+    margin-left: 10px;
+}
+
+
+input.contact__input__submit{
+    min-height:20px;
+}
+
+
+@media(min-width: 1000px) {
+
+    .login h2 {
+        font-size: 18px;
+    }
+
+    .contact__input__submit{
+        font-size: 18px;
+        height: 62px;
+        width: 328px;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,203 @@
+.footer {
+  background: #78cac2;
+  padding: 16px;
+}
+
+.footer__preguntas__icon--pc {
+  display: none;
+}
+
+.footer__preguntas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__preguntas img {
+  margin: 0 0 8px 0;
+}
+
+.footer__preguntas a {
+  color: #464646;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.footer__preguntas a:hover {
+  color: #030303;
+  font-weight: 700;
+  transition-duration: 0.3s;
+}
+
+.footer__contact-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contact-form h2 {
+  align-self: flex-start;
+  color: #78cac2;
+  font-size: 16px;
+  margin: 24px 0 0 0;
+}
+
+.contact__input__container {
+  border-bottom: solid 1px #C8C8C8;
+  background-color: #5497a7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 56px;
+  margin: 8px 8px 8px 8px;
+  padding:7px 7px 7px 7px;
+  width: 380px;
+  text-align: justify;
+}
+
+.contact__label {
+  color: #111111;
+  display: block;
+  font-size: 14px;
+  height: 16px;
+  line-height: 16px;
+  width: 272px;
+}
+
+#nombreLabel {
+    padding-left: 10px;
+}
+
+.contact__input__nombre,
+.contact__input__mensaje,
+.contact__input__email,
+.contact__input__password {
+  border: none;
+  color: #5497a7;
+  display: block; 
+  align-items: center;
+  font-size: 16px;
+  height: 20px;
+  line-height: 20px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.contact__input__nombre,
+.contact__input__mensaje,
+.contact__input__email,
+.contact__input__password {
+  caret-color: #2A7AE4;
+  outline: none;
+}
+
+.contact__input__nombre {
+  height: 25px;
+  margin: 0 auto;
+}
+
+.contact__input__container__mensaje {
+  height: 133px !important;
+  margin-top: 16px;
+  padding-left:15px;
+  padding-right: 15px;
+}
+
+.contact__input__mensaje {
+  height: auto;
+  resize: none;
+}
+
+.contact__label--active {
+  color: #effdff;
+}
+
+
+.contact__input--active {
+  border-bottom: solid 2px #edfdff;
+}
+
+.contact__input__submit {
+  background-color: #50858b;
+  border: none;
+  color: #040505;
+  cursor: pointer;
+  height: 40px;
+  transition: all 600ms ease;
+  width: 133px;
+  font-weight: 500;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
+.contact__input__submit:hover {
+  background-color: #6d9934;
+}
+
+.footer__autor {
+  background-color: #50858b;
+  color: #464646;
+  height: auto;
+  padding: 32px;
+}
+
+.footer__autor span {
+  font-weight: 500;
+}
+
+.footer__autor p {
+  margin: 5px;
+  margin-left: 0;
+  text-align: center;
+}
+
+.footer__autor p {
+  color: #141212;
+  font-weight: 500;
+}
+
+.footer__autor a:hover {
+  text-decoration: none;
+}
+
+@media(min-width: 768px) {
+
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+  }
+
+  .footer__preguntas {
+    align-items: start;
+  }
+
+  .footer__preguntas a {
+    margin: 12px;
+
+  }
+}
+
+@media(min-width: 1000px) {
+
+  .footer {
+    padding: 64px 10% 64px 10%;
+    align-items: start;
+  }
+
+  .footer__preguntas__icon--pc {
+    display: block;
+  }
+
+
+  .footer__preguntas__icon {
+    display: none;
+  }
+
+  form> h2 {
+    margin: 0 !important;
+  }  
+
+}
